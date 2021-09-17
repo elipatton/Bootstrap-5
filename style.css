@@ -15,6 +15,9 @@ html, body{
     color: #fff;
 }
 
+.page-header img{
+    border-radius: 5%;
+}
 .white{
     color:rgb(175, 171, 171)
 }
@@ -23,6 +26,36 @@ html, body{
     color:#fff;
 }
 
+.feature img {
+    border-radius: 5%;
+}
+
 .feature ul {
     padding-left: 2rem;
+}
+
+.feature ul li {
+    padding-left: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.icon{
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    background-color: whitesmoke;
+}
+
+.gallery img {
+    border-radius: 5%;
+    
 }
